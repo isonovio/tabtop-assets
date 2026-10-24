@@ -1,4 +1,4 @@
-name: Deploy assets (test prefix)
+name: Deploy assets
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ concurrency:
 
 env:
   GIT_LFS_SKIP_SMUDGE: '1'
-  DEPLOY_PREFIX: _test/ci
+  DEPLOY_PREFIX: ''
 
 jobs:
   upload:

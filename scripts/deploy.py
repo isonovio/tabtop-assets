@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Self
 
 STATE = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "deploy"
-PREFIX = os.environ.get("DEPLOY_PREFIX", "_test/ci").strip("/")
+PREFIX = os.environ.get("DEPLOY_PREFIX", "").strip("/")
 POINTER = re.compile(rb"version https://git-lfs.github.com/spec/v1\noid sha256:([0-9a-f]{64})\nsize ([0-9]+)\n?\Z")
 
 
