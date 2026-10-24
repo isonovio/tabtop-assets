@@ -1,0 +1,64 @@
+name: Deploy assets (test prefix)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bunny-assets
+  cancel-in-progress: false
+
+env:
+  GIT_LFS_SKIP_SMUDGE: '1'
+  DEPLOY_PREFIX: _test/ci
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      BUNNY_STORAGE_ENDPOINT: ${{ vars.BUNNY_STORAGE_ENDPOINT }}
+      BUNNY_STORAGE_PASSWORD: ${{ secrets.BUNNY_STORAGE_PASSWORD }}
+    outputs:
+      purge_ready: ${{ steps.results.outcome == 'success' }}
+      purge_artifact: ${{ steps.results.outputs.artifact-id }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false
+      - name: Fetch manifest, diff, upload and delete
+        run: python3 scripts/deploy.py transfer
+      - name: Preserve successful operations
+        id: results
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/deploy/result.json
+          if-no-files-found: error
+          retention-days: 90
+      - name: Update manifest and report storage failures
+        if: ${{ !cancelled() && steps.results.outcome == 'success' }}
+        run: python3 scripts/deploy.py manifest
+
+  purge:
+    needs: upload
+    if: ${{ always() && needs.upload.outputs.purge_ready == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          lfs: false
+          persist-credentials: false
+      - uses: actions/download-artifact@v8
+        with:
+          artifact-ids: ${{ needs.upload.outputs.purge_artifact }}
+          path: ${{ runner.temp }}/deploy
+      - name: Purge successful updates and deletes
+        env:
+          BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+          BUNNY_PULL_ZONE_HOSTNAME: ${{ vars.BUNNY_PULL_ZONE_HOSTNAME }}
+        run: python3 scripts/deploy.py purge
