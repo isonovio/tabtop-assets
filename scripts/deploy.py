@@ -45,7 +45,7 @@ def bunny_storage(
         headers["Content-Type"] = mimetypes.guess_type(path)[0] or "application/octet-stream"
     path = "/".join(filter(None, (PREFIX, path)))
     endpoint = os.environ["BUNNY_STORAGE_ENDPOINT"].rstrip("/")
-    req = urllib.request.Request(f"{endpoint}/{path}", data=data, headers=headers, method=method)
+    req = urllib.request.Request(f"{endpoint}/{urllib.parse.quote(path, safe='/')}", data=data, headers=headers, method=method)
     try:
         with urllib.request.urlopen(req, timeout=120) as response:
             return response.read()
@@ -105,8 +105,14 @@ class Manifest:
 
     @staticmethod
     def validate_path(path: str) -> None:
-        pattern = r"games/(?:[0-9a-z-]+/)*[0-9a-z-]+(?:\.[0-9a-z-]+)*"
-        assert re.fullmatch(pattern, path), f"Invalid asset path: {path}"
+        parts = path.split("/")
+        assert (
+            len(parts) > 1
+            and parts[0] == "games"
+            and all(part not in ("", ".", "..") for part in parts)
+            and "\\" not in path
+            and all(ord(char) >= 32 and ord(char) != 127 for char in path)
+        ), f"Invalid asset path: {path}"
 
     @classmethod
     def from_json(cls, data: str | bytes) -> Self:
@@ -205,7 +211,7 @@ class Diff:
         failures: list[str] = []
         for asset in [*self.updates, *self.deletes]:
             path = "/".join(filter(None, (PREFIX, asset)))
-            url = f"https://{host}/{path}"
+            url = f"https://{host}/{urllib.parse.quote(path, safe='/')}"
             query = urllib.parse.urlencode({"url": url, "async": "false", "exactPath": "true"})
             try:
                 bunny_api(f"purge?{query}", "POST")
