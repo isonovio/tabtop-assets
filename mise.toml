@@ -1,2 +1,8 @@
 [tools]
 "github:isonovio/steam-workshop" = "latest"
+python = "latest"
+uv = "latest"
+
+[tasks.tts-update]
+description = "Upload a TTS module's JSON to its Workshop item"
+run = "uv run --locked scripts/tts-update.py"
