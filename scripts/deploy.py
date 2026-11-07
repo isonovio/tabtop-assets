@@ -45,7 +45,9 @@ def bunny_storage(
         headers["Content-Type"] = mimetypes.guess_type(path)[0] or "application/octet-stream"
     path = "/".join(filter(None, (PREFIX, path)))
     endpoint = os.environ["BUNNY_STORAGE_ENDPOINT"].rstrip("/")
-    req = urllib.request.Request(f"{endpoint}/{urllib.parse.quote(path, safe='/')}", data=data, headers=headers, method=method)
+    req = urllib.request.Request(
+        f"{endpoint}/{urllib.parse.quote(path, safe='/')}", data=data, headers=headers, method=method
+    )
     try:
         with urllib.request.urlopen(req, timeout=120) as response:
             return response.read()
@@ -114,6 +116,18 @@ class Manifest:
             and all(ord(char) >= 32 and ord(char) != 127 for char in path)
         ), f"Invalid asset path: {path}"
 
+    @staticmethod
+    def validate_asset_path(path: str) -> None:
+        parts = path.split("/")
+        slug = r"[a-z0-9]+(?:-[a-z0-9]+)*"
+        slug_filename = rf"{slug}(?:\.[a-z0-9]+)+"
+        assert (
+            len(parts) >= 3
+            and parts[0] == "games"
+            and all(re.fullmatch(slug, part) for part in parts[1:-1])
+            and ((len(parts) == 3 and parts[-1] in ("README.md", "LICENSE")) or re.fullmatch(slug_filename, parts[-1]))
+        ), f"Invalid asset name: {path}"
+
     @classmethod
     def from_json(cls, data: str | bytes) -> Self:
         return cls(**json.loads(data))
@@ -135,6 +149,7 @@ class Manifest:
             meta, raw_path = record.split(b"\t", 1)
             mode, kind, blob = meta.decode().split()
             path = raw_path.decode("utf-8")
+            cls.validate_asset_path(path)
             assert mode in ("100644", "100755") and kind == "blob", f"Expected a regular file: {path}"
             files[path] = Checksum.from_blob(git("cat-file", "blob", blob))
         return cls(files=files)

@@ -58,8 +58,11 @@ through Bunny's API. Failures are reported so reruns can continue remaining work
 Configuration uses `BUNNY_STORAGE_ENDPOINT` and `BUNNY_PULL_ZONE_HOSTNAME` variables,
 and `BUNNY_STORAGE_PASSWORD` and `BUNNY_API_KEY` secrets. No pull-zone ID is needed.
 
-Path validation currently enforces path safety, not strict slug naming. A rename
-is an upload plus deletion; there is no automatic redirect or old-path alias.
+Local assets are checked for lowercase slug directories and filenames with lowercase
+alphanumeric extensions before their Git blobs are read. README.md and LICENSE are
+allowed only directly under games/<game-slug>/. Remote manifests and cleanup retain
+path-safety validation so legacy filenames can still be removed. A rename is an
+upload plus deletion; there is no automatic redirect or old-path alias.
 Deploy and verify new URLs before publishing module JSON that references them.
 Rollback requires restoring the matching asset paths and module JSON together,
 then deploying and republishing as appropriate.
