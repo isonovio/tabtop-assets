@@ -7,13 +7,16 @@ import re
 import subprocess
 import sys
 import tempfile
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Self
+from urllib.parse import unquote, urlsplit
 
 import bson  # pyright: ignore[reportMissingImports]
 
 ROOT = Path(__file__).resolve().parents[1]
+ASSETS_HOSTNAME = "assets.tabtop.wynd.is"
 
 
 @dataclass(frozen=True)
@@ -36,7 +39,19 @@ class Module:
     def encode(self) -> bytes:
         document = json.loads(self.source.read_text(encoding="utf-8-sig"))
         assert isinstance(document, dict), "Expected a JSON object"
+        self.validate_assets(document)
         return bson.encode(document)
+
+    def validate_assets(self, document: dict[str, object]) -> None:
+        missing = []
+        for url in sorted(set(urls(document))):
+            parsed = urlsplit(url)
+            if parsed.hostname != ASSETS_HOSTNAME:
+                continue
+            path = (ROOT / unquote(parsed.path).lstrip("/")).resolve()
+            if not path.is_relative_to(ROOT) or not path.is_file():
+                missing.append(url)
+        assert not missing, f"Missing local assets for {self.source.parent.name}:\n" + "\n".join(missing)
 
     def update(self) -> None:
         payload = self.encode()
@@ -45,6 +60,17 @@ class Module:
             content.write_bytes(payload)
             print(f"Updating {self.source.parent.name} (Workshop {self.source.stem})", flush=True)
             steam_workshop("update-file", "286160", self.source.stem, str(content))
+
+
+def urls(value: object) -> Iterator[str]:
+    if isinstance(value, str):
+        yield from re.findall(r"https?://[^\s\"'<>\\]+", value.replace("\\/", "/"))
+    elif isinstance(value, dict):
+        for item in value.values():
+            yield from urls(item)
+    elif isinstance(value, list):
+        for item in value:
+            yield from urls(item)
 
 
 def steam_workshop(*args: str) -> None:

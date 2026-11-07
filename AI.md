@@ -10,7 +10,8 @@ For deployment or Workshop publication, supply commands unless execution is requ
 
 `games/<game-slug>/` contains hosted assets. The production base URL is
 `https://assets.tabtop.wynd.is/`; repository paths map directly to URL paths.
-`https://bgdb.yin.ong/` is the previous host.
+`https://bgdb.yin.ong/` is the previous host. Old URLs and renamed asset paths are
+retired; no aliases, redirects, or backward compatibility are maintained.
 
 Use lowercase ASCII slug components with hyphens, preserving file extensions.
 `README.md` and `LICENSE` are conventional documentation exceptions. Use `en` and
@@ -42,7 +43,8 @@ The three games contain 177 assets (112 Napoleonic Wars, 8 Clash of Sovereigns,
 57 Tanto Monta), plus six README/license files. Filename audits and local URL
 validation passed. Renames preserved asset bytes and changed only URLs in module
 JSON, including URLs embedded in Lua and saved configuration. Third-party asset
-hosts remain unchanged. These local checks do not establish deployment status.
+hosts remain unchanged. The user has also confirmed deployment verification and module updates for the
+latest layouts of all three games.
 
 ## Asset deployment
 
@@ -81,7 +83,12 @@ ID. The principal migrated modules and the test item are:
 | test | 3826709471 |
 
 Run `mise tts-update <game-slug>` with Steam running and logged in.
-`scripts/tts-update.py` encodes the JSON as temporary BSON and calls
+`scripts/tts-update.py` checks URLs on `assets.tabtop.wynd.is` against local
+repository files, including URLs in nested data, Lua, and saved configuration.
+It decodes URL paths, ignores query strings/fragments, and rejects missing files,
+directories, or paths resolving outside the repository before upload. Third-party
+hosts are not checked. This is a local existence check, not a CDN availability check.
+It then encodes the JSON as temporary BSON and calls
 `steam-workshop update-file 286160 <item-id> <temporary-bson>`.
 It updates content only; the thumbnail is unchanged. Temporary files are cleaned
 up and upload failures propagate. The script uses inline uv dependencies and
@@ -95,5 +102,6 @@ KP-Steam experiment. The macOS ARM64 release includes its Steam library.
 
 JSON/BSON round trips passed for all 13 modules. The Rust publisher's private-item
 upload/download and TTS loading were verified, and the user confirmed the Python
-task worked for Clash of Sovereigns. Latest directory reorganizations still need
-the deployment/publication checks listed in `TODO.md`.
+task worked for Clash of Sovereigns. The user confirmed the latest directory
+layouts were deployed, verified, and published for all three games. Local asset
+validation passes for all 13 checked-in modules.
