@@ -974,7 +974,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/playercard-france.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/player-cards/france.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1194,7 +1194,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/playercard-spain.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/player-cards/spain.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1435,7 +1435,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/playercard-portugal.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/player-cards/portugal.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -1634,7 +1634,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/playercard-muslim.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/boards/player-cards/muslim.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -38460,7 +38460,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomPDF": {
-        "PDFUrl": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/rules.pdf",
+        "PDFUrl": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/docs/rules.pdf",
         "PDFPassword": "",
         "PDFPage": 0,
         "PDFPageOffset": 0
@@ -46576,7 +46576,7 @@
           "HideWhenFaceDown": false,
           "Hands": false,
           "CustomImage": {
-            "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent-bencomo.png",
+            "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent/bencomo.png",
             "ImageSecondaryURL": "",
             "ImageScalar": 1.0,
             "WidthScale": 0.0,
@@ -47922,7 +47922,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent-bencomo.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent/bencomo.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -56487,8 +56487,8 @@
       ],
       "CustomDeck": {
         "82": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -56496,8 +56496,8 @@
           "Type": 0
         },
         "83": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -56742,8 +56742,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -56800,8 +56800,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -56858,8 +56858,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -56916,8 +56916,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -56974,8 +56974,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57032,8 +57032,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57090,8 +57090,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57148,8 +57148,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57206,8 +57206,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57264,8 +57264,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57322,8 +57322,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57380,8 +57380,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57438,8 +57438,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57496,8 +57496,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57554,8 +57554,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57612,8 +57612,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57670,8 +57670,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57728,8 +57728,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -57786,8 +57786,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -59160,8 +59160,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -59218,8 +59218,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -59276,8 +59276,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -59334,8 +59334,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -59392,8 +59392,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -62737,8 +62737,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "84": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -62795,8 +62795,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "85": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -62853,8 +62853,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "86": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -62911,8 +62911,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "87": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -62969,8 +62969,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "88": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63027,8 +63027,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "89": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63085,8 +63085,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "90": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63143,8 +63143,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "91": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63201,8 +63201,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "92": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63259,8 +63259,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "93": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63317,8 +63317,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "94": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63375,8 +63375,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "95": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -63433,8 +63433,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "96": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-home.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/home.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 7,
           "NumHeight": 2,
           "BackIsHidden": false,
@@ -80390,7 +80390,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon-bernat.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon/bernat.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80450,8 +80450,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon-ferdinand1.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon-ferdinand2.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon/ferdinand-1.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon/ferdinand-2.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -80510,8 +80510,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon-john-ii.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile-g-captain.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/aragon/john-ii.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile/g-captain.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -80570,7 +80570,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/beltranejos-a-carillo.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/beltranejos/a-carrillo.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80630,7 +80630,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/beltranejos-pacheco.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/beltranejos/pacheco.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80690,8 +80690,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile-isabella.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile-duke-of-alba.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile/isabella.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile/duke-of-alba.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -80750,7 +80750,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile-mendoza.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/castile/mendoza.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80810,7 +80810,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/catalonia-h-roger.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/catalonia/h-roger.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80870,7 +80870,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-albret.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/albret.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80930,7 +80930,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-anjou.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/anjou.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -80987,7 +80987,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-casanove.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/casanove.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81044,8 +81044,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-louis-xi.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-charles-viii.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/louis-xi.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/charles-viii.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81101,7 +81101,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-louis-xii.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/louis-xii.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81161,7 +81161,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france-tremoille.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/france/tremoille.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81218,7 +81218,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent-borgia.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent/borgia.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81275,7 +81275,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent-maximilian.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/independent/maximilian.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81335,8 +81335,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid-m-hacen.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid-boabdil.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid/m-hacen.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid/boabdil.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81395,8 +81395,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid-el-zagal.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-a-abdallah.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/nasrid/el-zagal.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/a-abdallah.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81455,8 +81455,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-ibn-yahya.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-al-burgutali.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/ibn-yahya.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/al-burgutali.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81512,7 +81512,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-barbarossa.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/barbarossa.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81569,8 +81569,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-kemal-reis1.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica-kemal-reis2.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/kemal-reis-1.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/northafrica/kemal-reis-2.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81626,7 +81626,7 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal-a-leon.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal/a-leon.png",
         "ImageSecondaryURL": "",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
@@ -81686,8 +81686,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal-afonso-v.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal-braganza.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal/afonso-v.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal/braganza.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81743,8 +81743,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal-joao-ii.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal-manuel-i.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal/joao-ii.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/leaders/portugal/manuel-i.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -81803,8 +81803,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "97": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -81869,8 +81869,8 @@
       ],
       "CustomDeck": {
         "98": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -81878,8 +81878,8 @@
           "Type": 0
         },
         "99": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -81936,8 +81936,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -81994,8 +81994,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82052,8 +82052,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82110,8 +82110,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82168,8 +82168,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82226,8 +82226,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82284,8 +82284,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82358,8 +82358,8 @@
       ],
       "CustomDeck": {
         "100": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -82367,8 +82367,8 @@
           "Type": 0
         },
         "101": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -82425,8 +82425,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82483,8 +82483,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82541,8 +82541,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82599,8 +82599,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82657,8 +82657,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82715,8 +82715,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82773,8 +82773,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82831,8 +82831,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82889,8 +82889,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -82947,8 +82947,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83005,8 +83005,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83063,8 +83063,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83121,8 +83121,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83201,8 +83201,8 @@
       ],
       "CustomDeck": {
         "102": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -83210,8 +83210,8 @@
           "Type": 0
         },
         "103": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -83268,8 +83268,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83326,8 +83326,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83384,8 +83384,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83442,8 +83442,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83500,8 +83500,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83558,8 +83558,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83616,8 +83616,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83674,8 +83674,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83732,8 +83732,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83790,8 +83790,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83848,8 +83848,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83906,8 +83906,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -83964,8 +83964,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84022,8 +84022,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84080,8 +84080,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84138,8 +84138,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84196,8 +84196,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84254,8 +84254,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84312,8 +84312,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84393,8 +84393,8 @@
       ],
       "CustomDeck": {
         "104": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -84402,8 +84402,8 @@
           "Type": 0
         },
         "105": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -84460,8 +84460,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84518,8 +84518,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84576,8 +84576,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84634,8 +84634,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84692,8 +84692,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84750,8 +84750,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84808,8 +84808,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84866,8 +84866,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84924,8 +84924,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -84982,8 +84982,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85040,8 +85040,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events2.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-2.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85098,8 +85098,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85156,8 +85156,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85214,8 +85214,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85272,8 +85272,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85330,8 +85330,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85388,8 +85388,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85446,8 +85446,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85504,8 +85504,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85562,8 +85562,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+              "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+              "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
               "NumWidth": 10,
               "NumHeight": 7,
               "BackIsHidden": false,
@@ -85622,8 +85622,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "106": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -85680,8 +85680,8 @@
       "SidewaysCard": false,
       "CustomDeck": {
         "107": {
-          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/cards/deck-events1.png",
-          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/cards/deck-back-color.jpg",
+          "FaceURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/decks/events-1.png",
+          "BackURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/deck/events-back.jpg",
           "NumWidth": 10,
           "NumHeight": 7,
           "BackIsHidden": false,
@@ -85735,8 +85735,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/portugal-v-gama1.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/portugal-v-gama2.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/portugal/v-gama-1.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/portugal/v-gama-2.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -85792,8 +85792,8 @@
       "HideWhenFaceDown": false,
       "Hands": false,
       "CustomImage": {
-        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/spain-columbus1.png",
-        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/spain-columbus2.png",
+        "ImageURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/spain/columbus-1.png",
+        "ImageSecondaryURL": "https://assets.tabtop.wynd.is/games/tanto-monta/zh/naos/spain/columbus-2.png",
         "ImageScalar": 1.0,
         "WidthScale": 0.0,
         "CustomTile": {
@@ -85850,7 +85850,7 @@
       "Hands": false,
       "CustomMesh": {
         "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/",
-        "DiffuseURL": "https://assets.tabtop.wynd.is/games/tanto-monta/en/room/table.jpg",
+        "DiffuseURL": "https://assets.tabtop.wynd.is/games/tanto-monta/shared/room/table.jpg",
         "NormalURL": "",
         "ColliderURL": "",
         "Convex": true,
