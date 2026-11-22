@@ -1,6 +1,6 @@
 # tabtop-assets
 
-## sssets
+## assets
 
 ### hosting
 
